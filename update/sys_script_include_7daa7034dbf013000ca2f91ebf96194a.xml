@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hotel.square</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>square</name>
+        <script><![CDATA[function square (x) {
+	return x*x;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-09 17:24:08</sys_created_on>
+        <sys_id>7daa7034dbf013000ca2f91ebf96194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>square</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_script_include_7daa7034dbf013000ca2f91ebf96194a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-09 17:24:08</sys_updated_on>
+    </sys_script_include>
+</record_update>
