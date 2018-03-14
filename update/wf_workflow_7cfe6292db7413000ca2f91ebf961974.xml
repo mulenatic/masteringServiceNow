@@ -34,12 +34,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-14 17:42:47</sys_created_on>
         <sys_id>62bee292db7413000ca2f91ebf9619b9</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-14 17:45:13</sys_updated_on>
+        <sys_updated_on>2018-03-14 18:08:28</sys_updated_on>
         <table>x_hotel_maintenance</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Ask approval for external team">7cfe6292db7413000ca2f91ebf961974</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
