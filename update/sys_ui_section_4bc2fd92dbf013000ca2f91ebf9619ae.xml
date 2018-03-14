@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="4bc2fd92dbf013000ca2f91ebf9619ae" sys_domain="global" table="sys_user_group" version="3" view="Maintenance">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 13:21:50</sys_created_on>
+            <sys_id>de33f1d2dbf013000ca2f91ebf9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="07c2bd92dbf013000ca2f91ebf961936">4bc2fd92dbf013000ca2f91ebf9619ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 13:21:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 13:21:50</sys_created_on>
+            <sys_id>5233f1d2dbf013000ca2f91ebf9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="07c2bd92dbf013000ca2f91ebf961936">4bc2fd92dbf013000ca2f91ebf9619ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 13:21:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 13:21:50</sys_created_on>
+            <sys_id>d233f1d2dbf013000ca2f91ebf9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="07c2bd92dbf013000ca2f91ebf961936">4bc2fd92dbf013000ca2f91ebf9619ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 13:21:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 13:21:50</sys_created_on>
+            <sys_id>5633f1d2dbf013000ca2f91ebf9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="07c2bd92dbf013000ca2f91ebf961936">4bc2fd92dbf013000ca2f91ebf9619ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 13:21:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 13:21:50</sys_created_on>
+            <sys_id>d633f1d2dbf013000ca2f91ebf9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_group" sys_domain="global" view="07c2bd92dbf013000ca2f91ebf961936">4bc2fd92dbf013000ca2f91ebf9619ae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 13:21:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_user_group</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-14 13:19:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bc2fd92dbf013000ca2f91ebf9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_user_group</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+            <sys_update_name>sys_ui_section_4bc2fd92dbf013000ca2f91ebf9619ae</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-14 13:19:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Maintenance" name="Maintenance">07c2bd92dbf013000ca2f91ebf961936</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
