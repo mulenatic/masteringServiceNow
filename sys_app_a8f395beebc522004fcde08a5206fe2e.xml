@@ -10,7 +10,7 @@
         <menu display_value="Hotel">ace0f944dbf013000ca2f91ebf961988</menu>
         <name>Hotel</name>
         <private>false</private>
-        <restrict_table_access>true</restrict_table_access>
+        <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_hotel</scope>
         <scoped_administration>false</scoped_administration>
@@ -23,9 +23,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-08-08 22:04:23</sys_created_on>
         <sys_id>a8f395beebc522004fcde08a5206fe2e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-09 12:32:13</sys_updated_on>
+        <sys_updated_on>2018-03-12 16:40:09</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>

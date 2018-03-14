@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>guest</field>
+        <global>true</global>
+        <messages/>
+        <name>Alert for VIP</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading) {
+		g_form.hideFieldMsg('guest');
+	} if ( newValue == '') {
+		return;
+	}
+
+	var ga = new GlideAjax('QuickQuery');
+	ga.addParam('sysparm_name', 'getField');
+	ga.addParam('sysparm_table', 'x_hotel_guest');
+	ga.addParam('sysparm_sys_id', newValue);
+	ga.addParam('sysparm_field', 'vip');
+	
+	ga.getXMLAnswer(function(answer) {
+		console.log(answer);
+		if (answer == 'true') {
+				g_form.showFieldMsg('guest', 'Guest is a VIP!');
+		}
+	});
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-12 18:10:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8091a87ddbb013000ca2f91ebf961920</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Alert for VIP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_script_client_8091a87ddbb013000ca2f91ebf961920</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-14 08:19:08</sys_updated_on>
+        <table>x_hotel_check_in</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
