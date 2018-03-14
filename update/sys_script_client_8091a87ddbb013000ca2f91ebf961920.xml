@@ -11,12 +11,27 @@
         <name>Alert for VIP</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	
+	var showVIP = function() {
+		g_form.showFieldMsg('guest', 'Guest is a VIP');
+	};
+	
+	// Check the scratchpad. Regardless, leave if the form is being loaded
 	if (isLoading) {
-		g_form.hideFieldMsg('guest');
-	} if ( newValue == '') {
+		if(g_scratchpad.vip == "true") {
+			showVIP();
+		}
 		return;
 	}
-
+	
+	//Always clear the flag if the field is changing
+	g_form.hideFieldMsg('guest');
+	// Do nothing if the field is empty
+	if (newValue == '') {
+		return;
+	}
+	
+	// Check the database
 	var ga = new GlideAjax('QuickQuery');
 	ga.addParam('sysparm_name', 'getField');
 	ga.addParam('sysparm_table', 'x_hotel_guest');
@@ -24,9 +39,8 @@
 	ga.addParam('sysparm_field', 'vip');
 	
 	ga.getXMLAnswer(function(answer) {
-		console.log(answer);
-		if (answer == 'true') {
-				g_form.showFieldMsg('guest', 'Guest is a VIP!');
+		if(answer == "true") {
+			showVIP();
 		}
 	});
 
@@ -37,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8091a87ddbb013000ca2f91ebf961920</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Alert for VIP</sys_name>
         <sys_overrides/>
         <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
@@ -45,7 +59,7 @@
         <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
         <sys_update_name>sys_script_client_8091a87ddbb013000ca2f91ebf961920</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-14 08:19:08</sys_updated_on>
+        <sys_updated_on>2018-03-14 11:21:49</sys_updated_on>
         <table>x_hotel_check_in</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
