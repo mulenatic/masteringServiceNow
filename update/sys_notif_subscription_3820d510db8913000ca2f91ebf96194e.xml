@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_notif_subscription">
+    <sys_notif_subscription action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <affected_record/>
+        <affected_table/>
+        <condition/>
+        <devices>c17cec8cdb3013000ca2f91ebf96193f</devices>
+        <filter/>
+        <name>All work notes</name>
+        <notification display_value="Work notes update (Subscribeable)">174f81dcdb4913000ca2f91ebf9619ab</notification>
+        <schedule/>
+        <sys_class_name>sys_notif_subscription</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-20 15:56:48</sys_created_on>
+        <sys_id>3820d510db8913000ca2f91ebf96194e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>All work notes</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_notif_subscription_3820d510db8913000ca2f91ebf96194e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-20 15:56:58</sys_updated_on>
+        <user display_value="System Administrator">097cec8cdb3013000ca2f91ebf96193e</user>
+    </sys_notif_subscription>
+</record_update>
