@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for work_notes in x_hotel_maintenance, if the ACL script returns true.</description>
+        <name>x_hotel_maintenance.work_notes</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = (current.assigned_to == gs.getUserID()) || ((current.work_notes_list + "").indexOf(gs.getUserID()) > -1);]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-29 11:00:19</sys_created_on>
+        <sys_id>a982ea83db4d13000ca2f91ebf961958</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_hotel_maintenance.work_notes</sys_name>
+        <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
+        <sys_update_name>sys_security_acl_a982ea83db4d13000ca2f91ebf961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-29 11:03:49</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
